@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SquiDev - Freelance - Application Mobile</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="./Assets/poulpeWhite.png">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <nav>
+        <!-- Classe "scroll" sur les liens, href et id sont les mêmes comme sur une ancre normale -->
+            <svg class="logo" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+                <style type="text/css">
+                    .logo .st0{fill:#eef5f7;}
+                </style>
+                <title>Pti'Poulpe</title>
+                <path class="st0" d="M522.3,576.1c-182.6-2.5,52.7-5-43.5-219.8c-3.6-8-0.1-17.4,7.9-21.1c0.7-0.3,1.4-0.6,2.1-0.8
+                    c11-3.1,15.9-21.1,3.3-59.7c-0.2-0.6-0.4-1.2-0.7-1.7C342.1-55.8,79.1,296.4,134.7,314.8c9.5,3.1,13.4,14.6,8.3,23.2
+                    c-33.5,56.5-58.4,148.6-6.4,206.9c5.9,6.6,5.4,16.7-1.1,22.6c-1,0.9-2.1,1.7-3.3,2.3c-50,26.5-103,25.3-60.9,74.3
+                    c0.8,0.9,1.7,1.7,2.7,2.5c23.9,17,55.7,21.2,80.4,17.6c9.5-1.4,18.3,5.8,18.3,15.4c0.3,47.8,105.7,49,114.8-43
+                    c-21.4,111.3,106,112.8,85.6-4c8.5,97.4,172.6,121.8,69.9-12.1c15.8,22.3,84.2,5.4,94.4-23.2c2.9-8.3-1.6-17.3-9.9-20.2
+                    C525.7,576.4,524.1,576.1,522.3,576.1z M199.9,537.5c-32.7-0.4-40.4-55.2,0.3-59.3c0.7-0.1,1.3-0.1,2-0.1
+                    c32.4,1.1,40.2,55.1-0.5,59.3C201.1,537.5,200.5,537.5,199.9,537.5z M408.2,548.6c-31.9-0.9-40.1-55.7,0.8-59.3
+                    c0.6,0,1.1-0.1,1.7-0.1c33.4,0.9,39.8,54.7-0.5,59.3C409.5,548.6,408.8,548.6,408.2,548.6z"/>
+            </svg>
+            <a id="scroll-1" class="scroll" href="#section-1">SquiDev</a>
+            <div>
+            <a class="scroll" href="#section-2">Qui suis-je ?</a>
+            <a class="scroll" href="#section-3">Mes colaborations</a>
+            <a class="scroll" href="#section-4">Mes services</a>
+            <a class="scroll" href="#section-5">Contact</a>
+            <a class="scroll" href="./cv.html">Porfolio</a>
+            </div>  
+        </nav>
+        <main>
+            <section id="section-1" class="container">
+                <span class="background-1"></span>
+                <div class="flex-wrapper">
+                    <h1>Bienvenue chez SquiDev !</h1>
+                </div>
+                <div class="flex-wrapper padding">
+                    <p class="text-center">SquiDev développe des applications Web et Mobile pour tous depuis 2020, je suis freelance et fier de vous proposer mes services ! Ici, vous trouverez toutes les informations dont vous avez besoin !</p>
+                </div>
+                <div class="flex-wrapper">
+                    <div class="button">
+                        <a class="scroll" href="#section-5">Prendre contact !</a>
+                    </div>
+                </div>
+                <svg class="image-section-middle-right" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                    viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+                    <title>Pti'Poulpe</title>
+                    <path class="st0" d="M522.3,576.1c-182.6-2.5,52.7-5-43.5-219.8c-3.6-8-0.1-17.4,7.9-21.1c0.7-0.3,1.4-0.6,2.1-0.8
+                        c11-3.1,15.9-21.1,3.3-59.7c-0.2-0.6-0.4-1.2-0.7-1.7C342.1-55.8,79.1,296.4,134.7,314.8c9.5,3.1,13.4,14.6,8.3,23.2
+                        c-33.5,56.5-58.4,148.6-6.4,206.9c5.9,6.6,5.4,16.7-1.1,22.6c-1,0.9-2.1,1.7-3.3,2.3c-50,26.5-103,25.3-60.9,74.3
+                        c0.8,0.9,1.7,1.7,2.7,2.5c23.9,17,55.7,21.2,80.4,17.6c9.5-1.4,18.3,5.8,18.3,15.4c0.3,47.8,105.7,49,114.8-43
+                        c-21.4,111.3,106,112.8,85.6-4c8.5,97.4,172.6,121.8,69.9-12.1c15.8,22.3,84.2,5.4,94.4-23.2c2.9-8.3-1.6-17.3-9.9-20.2
+                        C525.7,576.4,524.1,576.1,522.3,576.1z M199.9,537.5c-32.7-0.4-40.4-55.2,0.3-59.3c0.7-0.1,1.3-0.1,2-0.1
+                        c32.4,1.1,40.2,55.1-0.5,59.3C201.1,537.5,200.5,537.5,199.9,537.5z M408.2,548.6c-31.9-0.9-40.1-55.7,0.8-59.3
+                        c0.6,0,1.1-0.1,1.7-0.1c33.4,0.9,39.8,54.7-0.5,59.3C409.5,548.6,408.8,548.6,408.2,548.6z"/>
+                </svg>
+            </section>
+            <section id="section-2" class="container background">
+                <span class="backline"></span>
+                <div class="flex-wrapper">
+                    <h1>Qui suis-je ?</h1>
+                    <span class="underline"></span>
+                </div>
+                <div class="card-wrapper padding">
+                    <article class="card2">
+                        <h2>Je m’appelle Valentin LAURENT, je suis développeur Freelance en Web et mobile.</h2>
+                        <p>Tout droit sorti de licence professionnelle développement mobile après un DUT informatique de 2 ans, je me suis lancé dans le monde des freelances. Je vous propose aujourd'hui mes services afin de vous aider dans la réalisation de vos idées d'applications en Web et mobile. De part mon expérience d'alternant et de professionnel, j'ai pu toucher à une multitude de technologies et de produits différents m'apportant de nombreuses connaissances utiles dans la production de vos idées ! J'accompagne à cette tâche depuis déjà plus d'un an, vous conseillant sur vos besoins et envies.</p>    
+                    </article>
+                </div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player class="image-section-bottom-right" src="https://assets3.lottiefiles.com/private_files/lf30_iecf0ukj.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
+            </section>
+            <section id="section-3" class="container">
+                <span class="background-2"></span>
+                <div class="flex-wrapper">
+                    <h1>Mes collaborations</h1>
+                    <span class="underline-b"></span>
+                </div>
+                <div class="flex-wrapper-row padding-2">
+                    <img src="Assets/univ.png" alt="Logo Université de la rochelle">
+                    <img src="Assets/iut.png" alt="Logo l'IUT Informatique de la rochelle">
+                    <img src="Assets/DRAC.png" alt="Logo de la DRAC">
+                    <img src="Assets/alienor.org.png" alt="Logo d'Alienor.org conseil des musées">
+                </div>
+                <div class="flex-wrapper-left">
+                    <h1>Ce qu'ils disent :</h1>
+                    <span class="underline-3"></span>
+                    <article class="citations-card background">
+                        <p>“Pendant une année assez compliquée, Covid oblige Valentin a su être responsable et à l’écoute des tâches qui lui ont été demandées dans un travail de réécriture du code frontend-backend en vue d’optimiser les applications mobiles de parcours de visites de musées, développées en partenariat avec l’IUT de La Rochelle. Je lui souhaite le meilleur dans le grand bain du développeur free lance.”</p>
+                        <div class="column author">
+                            <div class="column">
+                                <div class="row">
+                                    <p class="bold">Vincent Lagardère -</p>
+                                    <p class="orange">Alienor.org, Conseil des musées</p>
+                                </div>
+                                <div class="row">
+                                    <p>Depuis Malt.com, le </p>
+                                    <p class="bold">07/09/2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <svg class="image-section-bottom-left-little" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                    viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+                            <style type="text/css">
+                                .st2{fill:#ff9900;}
+                            </style>
+                            <title>Pti'Poulpe</title>
+                            <path class="st2" d="M522.3,576.1c-182.6-2.5,52.7-5-43.5-219.8c-3.6-8-0.1-17.4,7.9-21.1c0.7-0.3,1.4-0.6,2.1-0.8
+                                c11-3.1,15.9-21.1,3.3-59.7c-0.2-0.6-0.4-1.2-0.7-1.7C342.1-55.8,79.1,296.4,134.7,314.8c9.5,3.1,13.4,14.6,8.3,23.2
+                                c-33.5,56.5-58.4,148.6-6.4,206.9c5.9,6.6,5.4,16.7-1.1,22.6c-1,0.9-2.1,1.7-3.3,2.3c-50,26.5-103,25.3-60.9,74.3
+                                c0.8,0.9,1.7,1.7,2.7,2.5c23.9,17,55.7,21.2,80.4,17.6c9.5-1.4,18.3,5.8,18.3,15.4c0.3,47.8,105.7,49,114.8-43
+                                c-21.4,111.3,106,112.8,85.6-4c8.5,97.4,172.6,121.8,69.9-12.1c15.8,22.3,84.2,5.4,94.4-23.2c2.9-8.3-1.6-17.3-9.9-20.2
+                                C525.7,576.4,524.1,576.1,522.3,576.1z M199.9,537.5c-32.7-0.4-40.4-55.2,0.3-59.3c0.7-0.1,1.3-0.1,2-0.1
+                                c32.4,1.1,40.2,55.1-0.5,59.3C201.1,537.5,200.5,537.5,199.9,537.5z M408.2,548.6c-31.9-0.9-40.1-55.7,0.8-59.3
+                                c0.6,0,1.1-0.1,1.7-0.1c33.4,0.9,39.8,54.7-0.5,59.3C409.5,548.6,408.8,548.6,408.2,548.6z"/>
+                        </svg>
+                    </article>
+                </div>                    
+            </section>
+            <section id="section-4" class="container background">
+                <span class="backline"></span>
+                <div class="flex-wrapper">
+                    <h1>Mes services</h1>
+                    <span class="underline"></span>
+                </div>
+                <div class="card-wrapper">
+                    <article class="card">
+                        <div class="card-title">
+                            <h2>Création de Site Web</h2>
+                            <span class="underline-2"></span>
+                        </div>
+                        <p>Vous avez une idée de site, mais ne possédez pas les capacités techniques pour le faire ?</br>Faites appel à moi ! Je ferai tout mon possible pour concrétiser votre idée afin de répondre à vos besoins en restant à votre écoute, mais aussi en vous conseillant de part mon expérience !</p>
+                        <svg class="image-section-bottom-right-little" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                    viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+                            <style type="text/css">
+                                .st0{fill:#46c6e9;}
+                            </style>
+                            <title>Pti'Poulpe</title>
+                            <path class="st0" d="M522.3,576.1c-182.6-2.5,52.7-5-43.5-219.8c-3.6-8-0.1-17.4,7.9-21.1c0.7-0.3,1.4-0.6,2.1-0.8
+                                c11-3.1,15.9-21.1,3.3-59.7c-0.2-0.6-0.4-1.2-0.7-1.7C342.1-55.8,79.1,296.4,134.7,314.8c9.5,3.1,13.4,14.6,8.3,23.2
+                                c-33.5,56.5-58.4,148.6-6.4,206.9c5.9,6.6,5.4,16.7-1.1,22.6c-1,0.9-2.1,1.7-3.3,2.3c-50,26.5-103,25.3-60.9,74.3
+                                c0.8,0.9,1.7,1.7,2.7,2.5c23.9,17,55.7,21.2,80.4,17.6c9.5-1.4,18.3,5.8,18.3,15.4c0.3,47.8,105.7,49,114.8-43
+                                c-21.4,111.3,106,112.8,85.6-4c8.5,97.4,172.6,121.8,69.9-12.1c15.8,22.3,84.2,5.4,94.4-23.2c2.9-8.3-1.6-17.3-9.9-20.2
+                                C525.7,576.4,524.1,576.1,522.3,576.1z M199.9,537.5c-32.7-0.4-40.4-55.2,0.3-59.3c0.7-0.1,1.3-0.1,2-0.1
+                                c32.4,1.1,40.2,55.1-0.5,59.3C201.1,537.5,200.5,537.5,199.9,537.5z M408.2,548.6c-31.9-0.9-40.1-55.7,0.8-59.3
+                                c0.6,0,1.1-0.1,1.7-0.1c33.4,0.9,39.8,54.7-0.5,59.3C409.5,548.6,408.8,548.6,408.2,548.6z"/>
+                        </svg>
+                    </article>
+                    <article class="card">
+                        <div class="card-title">
+                            <h2>Création d’Application mobile</h2>
+                            <span class="underline-2"></span>
+                        </div>
+                        <p>Vous voulez créer une application mobile afin de changer votre vie ?</br>
+                            N’hésitez pas à me contacter ! Ensemble, nous discuterons de vos besoins afin de réaliser votre rêve !</p>
+                            <svg class="image-section-bottom-right-little" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0{fill:#46c6e9;}
+                                </style>
+                                <title>Pti'Poulpe</title>
+                                <path class="st0" d="M522.3,576.1c-182.6-2.5,52.7-5-43.5-219.8c-3.6-8-0.1-17.4,7.9-21.1c0.7-0.3,1.4-0.6,2.1-0.8
+                                    c11-3.1,15.9-21.1,3.3-59.7c-0.2-0.6-0.4-1.2-0.7-1.7C342.1-55.8,79.1,296.4,134.7,314.8c9.5,3.1,13.4,14.6,8.3,23.2
+                                    c-33.5,56.5-58.4,148.6-6.4,206.9c5.9,6.6,5.4,16.7-1.1,22.6c-1,0.9-2.1,1.7-3.3,2.3c-50,26.5-103,25.3-60.9,74.3
+                                    c0.8,0.9,1.7,1.7,2.7,2.5c23.9,17,55.7,21.2,80.4,17.6c9.5-1.4,18.3,5.8,18.3,15.4c0.3,47.8,105.7,49,114.8-43
+                                    c-21.4,111.3,106,112.8,85.6-4c8.5,97.4,172.6,121.8,69.9-12.1c15.8,22.3,84.2,5.4,94.4-23.2c2.9-8.3-1.6-17.3-9.9-20.2
+                                    C525.7,576.4,524.1,576.1,522.3,576.1z M199.9,537.5c-32.7-0.4-40.4-55.2,0.3-59.3c0.7-0.1,1.3-0.1,2-0.1
+                                    c32.4,1.1,40.2,55.1-0.5,59.3C201.1,537.5,200.5,537.5,199.9,537.5z M408.2,548.6c-31.9-0.9-40.1-55.7,0.8-59.3
+                                    c0.6,0,1.1-0.1,1.7-0.1c33.4,0.9,39.8,54.7-0.5,59.3C409.5,548.6,408.8,548.6,408.2,548.6z"/>
+                            </svg>
+                    </article>
+                    <article class="card">
+                        <div class="card-title">
+                            <h2>Création d’Application Web</h2>
+                            <span class="underline-2"></span>
+                        </div>
+                        <p>Vous hésitez entre un site et une application ? Et pourquoi pas les deux ?</br>
+                        </br>
+                        La création d’une application Web (PWA) vous permettra d’allier la simplicité d’une application mobile avec toujours un accès web pour tout type d’appareil !</p>
+                            <svg class="image-section-bottom-right-little" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0{fill:#46c6e9;}
+                                </style>
+                                <title>Pti'Poulpe</title>
+                                <path class="st0" d="M522.3,576.1c-182.6-2.5,52.7-5-43.5-219.8c-3.6-8-0.1-17.4,7.9-21.1c0.7-0.3,1.4-0.6,2.1-0.8
+                                    c11-3.1,15.9-21.1,3.3-59.7c-0.2-0.6-0.4-1.2-0.7-1.7C342.1-55.8,79.1,296.4,134.7,314.8c9.5,3.1,13.4,14.6,8.3,23.2
+                                    c-33.5,56.5-58.4,148.6-6.4,206.9c5.9,6.6,5.4,16.7-1.1,22.6c-1,0.9-2.1,1.7-3.3,2.3c-50,26.5-103,25.3-60.9,74.3
+                                    c0.8,0.9,1.7,1.7,2.7,2.5c23.9,17,55.7,21.2,80.4,17.6c9.5-1.4,18.3,5.8,18.3,15.4c0.3,47.8,105.7,49,114.8-43
+                                    c-21.4,111.3,106,112.8,85.6-4c8.5,97.4,172.6,121.8,69.9-12.1c15.8,22.3,84.2,5.4,94.4-23.2c2.9-8.3-1.6-17.3-9.9-20.2
+                                    C525.7,576.4,524.1,576.1,522.3,576.1z M199.9,537.5c-32.7-0.4-40.4-55.2,0.3-59.3c0.7-0.1,1.3-0.1,2-0.1
+                                    c32.4,1.1,40.2,55.1-0.5,59.3C201.1,537.5,200.5,537.5,199.9,537.5z M408.2,548.6c-31.9-0.9-40.1-55.7,0.8-59.3
+                                    c0.6,0,1.1-0.1,1.7-0.1c33.4,0.9,39.8,54.7-0.5,59.3C409.5,548.6,408.8,548.6,408.2,548.6z"/>
+                            </svg>
+                    </article>
+                </div>
+                <p class="cdt">Taux journalier 300 euros</p>
+            </section>
+            <section id="section-5" class="contact-container">
+                <span class="background-3"></span>
+                <h2>Envie de créer une application</br>
+                    Web ou mobile ?</h2>
+                <div style="flex-direction: row; display: flex;justify-content: space-around; align-items: center;">
+                    <svg class="image-section-middle-left" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+                        <style type="text/css">
+                            .image-section-middle-left .st0{fill:#eef5f7;}
+                        </style>
+                        <title>Pti'Poulpe</title>
+                        <path class="st0" d="M522.3,576.1c-182.6-2.5,52.7-5-43.5-219.8c-3.6-8-0.1-17.4,7.9-21.1c0.7-0.3,1.4-0.6,2.1-0.8
+                            c11-3.1,15.9-21.1,3.3-59.7c-0.2-0.6-0.4-1.2-0.7-1.7C342.1-55.8,79.1,296.4,134.7,314.8c9.5,3.1,13.4,14.6,8.3,23.2
+                            c-33.5,56.5-58.4,148.6-6.4,206.9c5.9,6.6,5.4,16.7-1.1,22.6c-1,0.9-2.1,1.7-3.3,2.3c-50,26.5-103,25.3-60.9,74.3
+                            c0.8,0.9,1.7,1.7,2.7,2.5c23.9,17,55.7,21.2,80.4,17.6c9.5-1.4,18.3,5.8,18.3,15.4c0.3,47.8,105.7,49,114.8-43
+                            c-21.4,111.3,106,112.8,85.6-4c8.5,97.4,172.6,121.8,69.9-12.1c15.8,22.3,84.2,5.4,94.4-23.2c2.9-8.3-1.6-17.3-9.9-20.2
+                            C525.7,576.4,524.1,576.1,522.3,576.1z M199.9,537.5c-32.7-0.4-40.4-55.2,0.3-59.3c0.7-0.1,1.3-0.1,2-0.1
+                            c32.4,1.1,40.2,55.1-0.5,59.3C201.1,537.5,200.5,537.5,199.9,537.5z M408.2,548.6c-31.9-0.9-40.1-55.7,0.8-59.3
+                            c0.6,0,1.1-0.1,1.7-0.1c33.4,0.9,39.8,54.7-0.5,59.3C409.5,548.6,408.8,548.6,408.2,548.6z"/>
+                    </svg>
+                    <p class="text">Contactez-moi au plus vite !</p>
+                    <div class="note">
+                        <div>
+                            <div class="row">
+                                <img class="icon" src="Assets/Phone.png" alt="Tel">
+                                <p>Téléphone</p>
+                            </div>
+                            <p class="data">07 81 48 47 35</p>
+                        </div>
+                        <div>
+                            <div class="row">
+                                <img class="icon" src="Assets/mail.png" alt="Mail">
+                                <p>Email</p>
+                            </div>
+                            <p class="data">laurent.vltn@gmail.com</p>
+                        </div>
+                        <div>
+                            <div class="row">
+                                <img class="icon" src="Assets/Pins.png" alt="Pins">
+                                <p>Localisation</p>
+                            </div>
+                            <p class="data">17300, Rochefort</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+<footer class="footer">
+    <div class="footer__nav">
+        <div class="nav__item">
+          <h2>Contact</h2>
+          <address>
+            17300 Rochefort, France</br></br>
+          </address>
+          <div style="width: 70%;" class="button">
+                <a href="mailto:laurent.vltn@gmail.com">Contactez-moi !</a>
+            </div>
+        </div>
+      <div class="nav__item">
+        <h2 class="nav__title">Liens Rapides</h2>
+  
+        <ul class="nav__ul">
+          <li>
+            <a href="#section-1">SquiDev</a>
+          </li>
+          <li>
+            <a href="#section-2">Qui suis-je ?</a>
+          </li>
+          <li>
+            <a href="#section-3">Mes Colaborations</a>
+          </li>
+          <li>
+            <a href="#section-4">Mes Services</a>
+          </li>
+          <li>
+            <a href="#section-5">Contacts</a>
+          </li>
+          <li>
+            <a href="./cv.html">Portfolio</a>
+          </li>
+        </div>
+      <div class="nav__item">
+        <h2 class="nav__title">Légal</h2>
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Politique de confidentialité</a>
+          </li>
+          
+          <li>
+            <a href="#">Conditions d'utilisation</a>
+          </li>
+        </ul>
+    </div>
+    </div>
+    <div class="legal">
+      <p>&copy; 2020 SquiDev. Tous droits réservés.</p>
+    </div>
+  </footer>  
+    </body>
+    <script>
+        //Sticky Header
+$(window).scroll(function() {
+
+if ($(window).scrollTop() > 100) {
+    $("nav").addClass('scrolled');
+} else {
+    $("nav").removeClass('scrolled');
+}
+});
+
+// Au clic des liens qui ont la classe scroll, on "anime" (scroll) le body (html corrige un bug sur firefox/IE) jusqu'à l'élément dont l'ID correspond au href du lien cliqué
+
+// Le chiffre (500) correspond à la vitesse en millisecondes de l'animation. Ici, 0.5 secondes.
+
+$(function(){
+
+$('.scroll').click(function(){
+
+    $('html, body').animate({
+
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+
+});
+    </script>
+</html>
