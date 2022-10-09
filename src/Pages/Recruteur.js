@@ -30,7 +30,7 @@ export const Recruteur= (props) =>{
                   <div className="card-wrapper">
                       <article className="card2" data-label={age+ " ans, Rochefort 17300"}>
                           <div className="flex-wrapper avatar-container">
-                        <img className="avatar" src="../Assets/me.png" alt="Profil Picture"/>
+                        <img className="avatar" src="../Portfolio/Assets/me.png" alt="Profil Picture"/>
                         <h2>Je m’appelle Valentin LAURENT, je suis développeur Freelance en Web et mobile.</h2>
                         </div>
                           <p>
@@ -150,21 +150,21 @@ export const Recruteur= (props) =>{
                       <div className="note">
                           <div>
                               <div className="row">
-                                  <img className="icon" src="Assets/Phone.png" alt="Tel"/>
+                                  <img className="icon" src="/Portfolio/Assets/Phone.png" alt="Tel"/>
                                   <p>Téléphone</p>
                               </div>
                               <p className="data">07 81 48 47 35</p>
                           </div>
                           <div>
                               <div className="row">
-                                  <img className="icon" src="Assets/mail.png" alt="Mail"/>
+                                  <img className="icon" src="/Portfolio/Assets/mail.png" alt="Mail"/>
                                   <p>Email</p>
                               </div>
                               <p className="data">laurent.vltn@gmail.com</p>
                           </div>
                           <div>
                               <div className="row">
-                                  <img className="icon" src="Assets/Pins.png" alt="Pins"/>
+                                  <img className="icon" src="/Portfolio/Assets/Pins.png" alt="Pins"/>
                                   <p>Localisation</p>
                               </div>
                               <p className="data">17300, Rochefort</p>

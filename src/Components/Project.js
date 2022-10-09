@@ -10,15 +10,15 @@ export const ProjectSection= (props) => {
             </div>
             <div className="flex-wrapper row evenly middle-container">
                 <div className="column app">
-                <img src="../Assets/VM.png" alt="Logo Université de la rochelle"/>
+                <img src="/Portfolio/Assets/VM.png" alt="Logo Université de la rochelle"/>
                 <p>Visite Musée</p>
                 </div>
                 <div className="column app">
-                <img src="../Assets/VP.png" alt="Logo Université de la rochelle"/>
+                <img src="/Portfolio/Assets/VP.png" alt="Logo Université de la rochelle"/>
                 <p>Visite Patrimoine</p>
                 </div>
                 <div className="column app">
-                <img src="../Assets/1024.png" alt="Logo Université de la rochelle"/>
+                <img src="/Portfolio/Assets/1024.png" alt="Logo Université de la rochelle"/>
                 <p>Mon Panier Connecté</p>
                 </div>
             </div>

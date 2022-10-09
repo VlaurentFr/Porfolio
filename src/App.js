@@ -20,7 +20,7 @@ const App = (props) => {
   <main data-theme="light">
     <link href='https://css.gg/css' rel='stylesheet'></link>
     {/* NAVBAR */}
-     {location.pathname !== '/' && <nav className='scrolled'>
+     {location.pathname !== '/Portfolio/' && <nav className='scrolled'>
         <svg className="logo" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
         viewBox="0 0 595.3 841.9" style={{enableBackground:(0, 0, 595.3, 841.9)}} >
             <title>Pti'Poulpe</title>
@@ -33,17 +33,17 @@ const App = (props) => {
                 c32.4,1.1,40.2,55.1-0.5,59.3C201.1,537.5,200.5,537.5,199.9,537.5z M408.2,548.6c-31.9-0.9-40.1-55.7,0.8-59.3
                 c0.6,0,1.1-0.1,1.7-0.1c33.4,0.9,39.8,54.7-0.5,59.3C409.5,548.6,408.8,548.6,408.2,548.6z"/>
         </svg>
-        <Link id="scroll-1" className="scroll" to="/">SquiDev</Link>
+        <Link id="scroll-1" className="scroll" to="/Portfolio/">SquiDev</Link>
         <div>
         <a className="scroll" onClick={() => {section1.current.scrollIntoView()} }>Qui suis-je ?</a>
         <a className="scroll" onClick={() => {section2.current.scrollIntoView()} }>Mes projets</a>
         <a className="scroll" onClick={() => {section3.current.scrollIntoView()} }>Mes colaborations</a>
-        {location.pathname === '/client' && <a className="scroll" onClick={() => {section4.current.scrollIntoView()} }>Mes services</a>}
-        {location.pathname === '/recruteur' &&  <a className="scroll" onClick={() => {section4.current.scrollIntoView()} }>Mes compétences</a>}
-        {location.pathname === '/recruteur' &&  <a className="scroll" onClick={() => {section4a.current.scrollIntoView()} }>Mes expériences</a>}
-        {location.pathname === '/recruteur' &&  <a className="scroll" onClick={() => {section4b.current.scrollIntoView()} }>Mes formations</a>}
+        {location.pathname === '/Portfolio/client' && <a className="scroll" onClick={() => {section4.current.scrollIntoView()} }>Mes services</a>}
+        {location.pathname === '/Portfolio/recruteur' &&  <a className="scroll" onClick={() => {section4.current.scrollIntoView()} }>Mes compétences</a>}
+        {location.pathname === '/Portfolio/recruteur' &&  <a className="scroll" onClick={() => {section4a.current.scrollIntoView()} }>Mes expériences</a>}
+        {location.pathname === '/Portfolio/recruteur' &&  <a className="scroll" onClick={() => {section4b.current.scrollIntoView()} }>Mes formations</a>}
         <a className="scroll" onClick={() => {section5.current.scrollIntoView()} }>Contact</a>
-        {location.pathname === '/recruteur' && <a href="./Assets/CV_Valentin_LAURENT.pdf" download>Mon CV</a>}
+        {location.pathname === '/Portfolio/recruteur' && <a href="/Portfolio/Assets/CV_Valentin_LAURENT.pdf" download>Mon CV</a>}
         </div>
         <div className="theme-switcher">
             <div className="theme-wrapper" onClick={() => {let cdt = theme === "dark" ? "light" : "dark"; setTheme(cdt); document.documentElement.setAttribute("data-theme", cdt)}}>
@@ -57,7 +57,7 @@ const App = (props) => {
         </div>
     </nav>}
     {/* HOMEPAGE */}
-    {location.pathname === '/' && <section id="section-1" className="container column">
+    {location.pathname === '/Portfolio/' && <section id="section-1" className="container column">
         <span className="background-1"></span>
         <div className="flex-wrapper center">
             <h1>Bienvenue chez SquiDev !</h1>
@@ -66,8 +66,8 @@ const App = (props) => {
             <p className="text-center">SquiDev développe des applications Web et Mobile pour tous depuis 2020, je suis freelance et fier de vous proposer mes services ! Ici, vous trouverez toutes les informations dont vous avez besoin !</p>
         </div>
         <div className="flex-wrapper row evenly">
-            <Link className="buttonPrimary"to="/client" onClick={() => {} }>Je suis client</Link>
-            <Link className="buttonSecondary" to="/recruteur" onClick={() => {} }>Je suis recruteur</Link>
+            <Link className="buttonPrimary"to="/Portfolio/client" onClick={() => {} }>Je suis client</Link>
+            <Link className="buttonSecondary" to="/Portfolio/recruteur" onClick={() => {} }>Je suis recruteur</Link>
         </div>
         <svg className="image-section-middle-right" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                 viewBox="0 0 595.3 841.9" style={{enableBackground:(0, 0, 595.3, 841.9)}} >
@@ -84,10 +84,10 @@ const App = (props) => {
     </section>}
     {/* ROUTER */}
     <div>
-      <Route path='/client'>
+      <Route path='/Portfolio/client'>
         <Client refProp1={section1} refProp2={section2} refProp3={section3} refProp4={section4} refProp5={section5}/>
       </Route>
-      <Route path='/recruteur'>
+      <Route path='/Portfolio/recruteur'>
         <Recruteur refProp1={section1} refProp2={section2} refProp3={section3} refProp4={section4} refProp4a={section4a} refProp4b={section4b} refProp5={section5}/>
       </Route>
     </div>

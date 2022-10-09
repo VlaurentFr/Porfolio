@@ -10,11 +10,11 @@ export const Colab= (props) => {
                       <span className="underline-b"></span>
                   </div>
                   <div className="flex-wrapper wrap row evenly middle-container">
-                      <img src="../Assets/univ.png" alt="Logo Université de la rochelle"/>
-                      <img src="../Assets/iut.png" alt="Logo l'IUT Informatique de la rochelle"/>
-                      <img src="../Assets/jpeuxpas.jpeg" alt="Logo jpeuxpasjaimusee.org"/>
-                      <img src="../Assets/DRAC.png" alt="Logo de la DRAC"/>
-                      <img src="../Assets/alienor.org.png" alt="Logo d'Alienor.org conseil des musées"/>
+                      <img src="/Portfolio/Assets/univ.png" alt="Logo Université de la rochelle"/>
+                      <img src="/Portfolio/Assets/iut.png" alt="Logo l'IUT Informatique de la rochelle"/>
+                      <img src="/Portfolio/Assets/jpeuxpas.jpeg" alt="Logo jpeuxpasjaimusee.org"/>
+                      <img src="/Portfolio/Assets/DRAC.png" alt="Logo de la DRAC"/>
+                      <img src="/Portfolio/Assets/alienor.org.png" alt="Logo d'Alienor.org conseil des musées"/>
                   </div>
               </section>
               <section id="section-3" className="container">
