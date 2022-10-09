@@ -1,0 +1,56 @@
+[
+    {
+        "title": "ReactJS",
+        "rating": "★★★★☆",
+        "exp": "2 ans",
+        "description": "Ce site est actuellement fait en ReactJS, ma vaste expérience en react-native m'a donné de solides bases en React"
+    },
+    {
+        "title": "React Native",
+        "rating": "★★★★☆",
+        "exp": "2 ans",
+        "description": "J'ai créé de multiples prototypes d'applications en React Native et participé au déveveloppement de diverses applications comme le Kit Pédagogique un jeu d'enquêtes pédagogiques"
+    },
+    {
+        "title": "JavaScript",
+        "rating": "★★★★★",
+        "exp": "4 ans",
+        "description": "Un langage que je maîtrise depuis longtemps, j'ai pu faire de nombreuses applications via des frameworks basés dessus comme Angular, Ionic, Vue.JS"
+    },
+    {
+        "title": "NodeJS",
+        "rating": "★★★☆☆",
+        "exp": "1 ans",
+        "description": "Probablement encore des choses à apprendre en tant que junior mais j'ai déjà créé plusieurs bots Discord et Slack avec ainsi que des API couplées à Express"
+    },
+    {
+        "title": "Express",
+        "rating": "★★★☆☆",
+        "exp": "1 ans",
+        "description": "Probablement encore des choses à apprendre, j'ai eu l'opportunité de créer plusieurs API comme celle de l'application \"Mon Panier Connecté\""
+    },
+    {
+        "title": "TypeScript",
+        "rating": "★★★★★",
+        "exp": "2 ans",
+        "description": "Fréquemment utilisé pour un code plus propre et maintenable"
+    },
+    {
+        "title": "FireStore",
+        "rating": "★★★★☆",
+        "exp": "2 ans",
+        "description": "Utilisé pour de l'authentification, le push de notifications sur diverses applications. Je suis accomodé à l'utiliser"
+    },
+    {
+        "title": "MangoDB",
+        "rating": "★★★★☆",
+        "exp": "1 ans",
+        "description": "Une base de données bien pratique pour les petits projets, je l'utilise pour la plupart de mes projets depuis que je l'ai découvert"
+    },
+    {
+        "title": "mySQL",
+        "rating": "★★★★☆",
+        "exp": "2 ans",
+        "description": "Je maîtrise le CRUD depuis un certain temps et l'ais très fréquemment utilisé pour gérer les données de mes applications"
+    }
+]

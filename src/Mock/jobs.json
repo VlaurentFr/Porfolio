@@ -1,0 +1,44 @@
+[
+    {
+        "date": "2020 - Aujourd'hui",
+        "title": "Développeur Fullstack Web et Mobile",
+        "subtitle": "Freelance - SquiDev",
+        "description": "Actuellement en Freelance vous trouverez ci-dessous mes projets réalisés durant cette période"
+    },
+    {
+        "date": "Mai 2021 - Aujourd'hui",
+        "title": "Développement application : Mon Panier Connecté",
+        "subtitle": "Freelance - SquiDev pour Université de La Rochelle",
+        "description": "Dans le cadre d'un projet de recherche de professeur chercheur pour la chambre de l'agriculture de Nouvelle Aquitaine, j'ai développé une application mobile en React Native de mise en relation entre consommateurs et producteurs locaux. Les porducteurs peuvent gérer très facilement leur point de ventes grâce à l'application utilisant une API en Express ainsi qu'une base de données MangoDB"
+    },
+    {
+        "date": "sept 2020 - Aujourd'hui",
+        "title": "Accompagnement développement application : Visite Musée",
+        "subtitle": "Freelance - SquiDev pour IUT de La Rochelle (jpeuxpasjaimusee.org)",
+        "description": ""
+    },
+    {
+        "date": "Sept 2020 - Aujourd'hui",
+        "title": "Développement application : Visite Patrimoine",
+        "subtitle": "Freelance - SquiDev pour IUT de La Rochelle (jpeuxpasjaimusee.org)",
+        "description": "Visite Patrimoine est une PWA en Ionic-Angular qui propose des parcours et points d'intérêts pour visiter divers territoires participants"
+    },
+    {
+        "date": "Sept 2020 - Aujourd'hui",
+        "title": "Accompagnement développement application : Kit Pédagogique",
+        "subtitle": "Freelance - SquiDev pour IUT de La Rochelle (jpeuxpasjaimusee.org)",
+        "description": ""
+    },
+    {
+        "date": "Sept 2019 - Août 2020",
+        "title": "Alternance developpeur Fullstack",
+        "subtitle": "Alternance chez Alienor.org Conseil des musées (jpeuxpasjaimusee.org)",
+        "description": "Pendant cette période j'ai remonté l'application Visite Musée en Ionic 4 de A à Z en rajoutant une feature, des parcours scénarisés sous forme d'UX conversationnelle"
+    },
+    {
+        "date": "Avril 2019 - Juin 2019",
+        "title": "Stage développpeur Web et Mobile",
+        "subtitle": "Chez Aria (jpeuxpasjaimusee.org)",
+        "description": "Développement d'une première version d'un jeu d'enquêtes pédagogiques (Kit Pédagogique) en React Native dans le cadre du partenariat DRAC, Alienor.org, IUT de La Rochelle ( jpeuxpasjaimusee.org ). Destiné aux classes scolaires en visite dans les musées, les élèves doivent répondre à des questions en cherchant les informations dans le musée en utilisant les differents supports qui accompagnent le tout (AR, QRCode ...) "
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "date": "Nov 2021",
+        "title": "Guide Complet Dart Flutter - Udemy",
+        "subtitle": "Formations Udemy",
+        "description": ""
+    },
+    {
+        "date": "Sept 2019 - Août 2020",
+        "title": "Licence professionelle Développeur Mobile Fullstack",
+        "subtitle": "Université de La Rochelle",
+        "description": "En alternance"
+    },
+    {
+        "date": "Sept 2017 - Juin 2019",
+        "title": "DUT Informatique",
+        "subtitle": "Iut informatique de La Rochelle",
+        "description": "Spécialisation 2eme année : DWCS ( Developpement Web Côté Serveur )"
+    }
+]
