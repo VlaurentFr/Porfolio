@@ -45,7 +45,7 @@ BUTTON
     text-decoration: none;
     height: 70px;
     border: none;
-    border-radius: 24px;
+    border-radius: 8px;
     box-shadow: 2px 2px 5px var(--primaryColorShade);
     margin: 20px;
     text-shadow: none;
@@ -81,7 +81,7 @@ BUTTON
     text-decoration: none;
     height: 70px;
     border: none;
-    border-radius: 24px;
+    border-radius: 8px;
     box-shadow: 2px 2px 5px var(--secondaryColorShade);
     color: var(--textColorTint);
     margin: 20px;
@@ -100,7 +100,7 @@ BUTTON
 
 .buttonMorePrimary {
     display: flex;
-    border-radius: 60px;
+    border-radius: 8px;
     background-color: var(--primaryColor);
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@ BUTTON
 
 .buttonMoreSecondary{
     display: flex;
-    border-radius: 60px;
+    border-radius: 8px;
     background-color: var(--background);
     justify-content: center;
     align-items: center;
