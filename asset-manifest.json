@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.44fe185a.chunk.css",
+    "main.css": "/Portfolio/static/css/main.b5407134.chunk.css",
     "main.js": "/Portfolio/static/js/main.889b53e2.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.889b53e2.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.b89a717a.js",
@@ -12,7 +12,7 @@
     "static/js/3.146d03d8.chunk.js.map": "/Portfolio/static/js/3.146d03d8.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.d31d2e71.chunk.css.map": "/Portfolio/static/css/2.d31d2e71.chunk.css.map",
-    "static/css/main.44fe185a.chunk.css.map": "/Portfolio/static/css/main.44fe185a.chunk.css.map",
+    "static/css/main.b5407134.chunk.css.map": "/Portfolio/static/css/main.b5407134.chunk.css.map",
     "static/js/2.e8569ee8.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e8569ee8.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/Portfolio/static/media/green-slate.91729172.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.b89a717a.js",
     "static/css/2.d31d2e71.chunk.css",
     "static/js/2.e8569ee8.chunk.js",
-    "static/css/main.44fe185a.chunk.css",
+    "static/css/main.b5407134.chunk.css",
     "static/js/main.889b53e2.chunk.js"
   ]
 }
