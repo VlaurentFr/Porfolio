@@ -558,18 +558,20 @@ Card
 }
 .card2 {
     position: relative;
-    box-shadow: 2px 2px 5px var(--backgroundShade);
     padding: 55px;
     margin: 27px;
-    border-radius: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50vw;
     min-height: 50vh;
     z-index: 2;
-    transition: background-color 1s,;
-    background-color: var(--backgroundTint);
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 /* .card2::before{
     position: absolute;

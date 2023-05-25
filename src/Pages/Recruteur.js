@@ -21,8 +21,8 @@ export const Recruteur= (props) =>{
     const age = currentDate.getFullYear() - birth.getFullYear()
     return ( 
           <div>
-              <section ref={props.refProp1} className="container background column">
-                  <span className="backline"></span>
+              <section ref={props.refProp1} className="container">
+                  <span className="background-2"></span>
                   <div className="flex-wrapper column">
                       <h1>Qui suis-je ?</h1>
                       <span className="underline"></span>

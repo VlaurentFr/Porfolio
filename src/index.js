@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
-alert('Ce site est actuellement en maintenance, vous y trouverez toutes les informations nécessaires mais des désagréments d\'utilisations peuvent avoir lieu. Veuillez nous excusez.')
+// alert('Ce site est actuellement en maintenance, vous y trouverez toutes les informations nécessaires mais des désagréments d\'utilisations peuvent avoir lieu. Veuillez nous excusez.')
 
 ReactDOM.render(
   <React.StrictMode>
