@@ -31,10 +31,12 @@ export const Recruteur= (props) =>{
                       <article className="card2" data-label={age+ " ans, Rochefort 17300"}>
                           <div className="flex-wrapper avatar-container">
                         <img className="avatar" src="../Portfolio/Assets/me.png" alt="Profil Picture"/>
-                        <h2>Je m’appelle Valentin LAURENT, je suis développeur Freelance en Web et mobile.</h2>
+                        <h2>Je m’appelle Valentin LAURENT, je suis développeur Fullstack en Web et mobile.</h2>
                         </div>
                           <p>
                               Tout droit sorti de licence professionnelle développement mobile après un DUT informatique de 2 ans, je me suis lancé dans le monde des freelances. Je vous propose aujourd'hui mes services afin de vous aider dans la réalisation de vos idées d'applications en Web et mobile. De par mon expérience d'alternant et de professionnel, j'ai pu toucher à une multitude de technologies et de produits différents m'apportant de nombreuses connaissances utiles dans la production de vos idées ! J'accompagne à cette tâche depuis déjà plus d'un an, vous conseillant sur vos besoins et envies.
+
+                              J'ai également eu la chance de travailler chez Raccourci Agency, une entrprise de solution numérique pour le tourisme basé à La Rochelle.
                         </p>
                     </article>
                   </div>
