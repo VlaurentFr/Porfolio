@@ -38,15 +38,14 @@ export const Recruteur= (props) =>{
                         </p>
                     </article>
                   </div>
-                  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                  <iframe class="image-section-bottom-right" src="https://embed.lottiefiles.com/animation/41675"></iframe>
               </section>
               {/* PROJET */}
               <ProjectSection refProp={props.refProp2}></ProjectSection>
               {/* COLAB */}
               <Colab refProp={props.refProp3}></Colab>
               {/* Compétences */}
-              <section id="section-4" ref={props.refProp4} className="container-comp background">
+              <section ref={props.refProp4} className="container">
+                  <span className="background-2"></span>
                   <div className="flex-wrapper column center">
                       <h1>Mes compétences</h1>
                       <span className="underline"></span>
@@ -55,7 +54,7 @@ export const Recruteur= (props) =>{
                   {/* <Carousel className="slider" autoPlay={true} interval={7000}showStatus={false} emulateTouch={false} centerMode={true} infiniteLoop={true} centerSlidePercentage={25}>
                     {SKILLS.map((item,i) => <CarouselCard onClick={()=> setSkill(i)} skill={item} index={i} isClick={skill == i}></CarouselCard>)}
                   </Carousel> */}
-                  <div className='card-wrapper background-secondary'>
+                  <div className='card-wrapper'>
                       {SKILLS.map((item,i) => {
                           if(i < 6)
                           return(<CarouselCard onClick={()=> setSkill(i)} skill={item} index={i} isClick={skill == i}></CarouselCard>)
