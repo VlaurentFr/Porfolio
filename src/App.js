@@ -66,7 +66,7 @@ const App = (props) => {
             <p className="text-center">SquiDev développe des applications Web et Mobile pour tous depuis 2020, je suis freelance et fier de vous proposer mes services ! Ici, vous trouverez toutes les informations dont vous avez besoin !</p>
         </div>
         <div className="flex-wrapper row evenly">
-            <Link className="buttonPrimary"to="/Portfolio/client" onClick={() => {} }>Je suis client</Link>
+            {/* <Link className="buttonPrimary"to="/Portfolio/client" onClick={() => {} }>Je suis client</Link> */}
             <Link className="buttonSecondary" to="/Portfolio/recruteur" onClick={() => {} }>Je suis recruteur</Link>
         </div>
         <svg className="image-section-middle-right" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -84,9 +84,9 @@ const App = (props) => {
     </section>}
     {/* ROUTER */}
     <div>
-      <Route path='/Portfolio/client'>
+      {/* <Route path='/Portfolio/client'>
         <Client refProp1={section1} refProp2={section2} refProp3={section3} refProp4={section4} refProp5={section5}/>
-      </Route>
+      </Route> */}
       <Route path='/Portfolio/recruteur'>
         <Recruteur refProp1={section1} refProp2={section2} refProp3={section3} refProp4={section4} refProp4a={section4a} refProp4b={section4b} refProp5={section5}/>
       </Route>
