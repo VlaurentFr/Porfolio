@@ -88,7 +88,8 @@ export const Recruteur= (props) =>{
                 </div>
               </section>
               {/* Compétences */}
-              <section id="section-4" ref={props.refProp4a} className="container background">
+              <section ref={props.refProp4a} className="container">
+                  <span className="background-2"></span>
                   <div className="flex-wrapper column center">
                       <h1>Mes expériences</h1>
                       <span className="underline"></span>
@@ -108,7 +109,8 @@ export const Recruteur= (props) =>{
                   </Timeline>
               </section>
               {/* FORMATIONS */}
-              <section id="section-4" ref={props.refProp4b} className="container background">
+              <section ref={props.refProp4b} className="container">
+                  <span className="background-2"></span>
                   <div className="flex-wrapper column center">
                       <h1>Mes formations</h1>
                       <span className="underline"></span>

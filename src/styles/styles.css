@@ -30,7 +30,7 @@
     color: #ddd
 }
 .entry .body p, .entry .body h4{
-    color: var(--textColor);
+    color: white;
     transition: color 1s;
 }
 /* ========================

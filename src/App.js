@@ -43,7 +43,7 @@ const App = (props) => {
         {location.pathname === '/Portfolio/recruteur' &&  <a className="scroll" onClick={() => {section4a.current.scrollIntoView()} }>Mes expériences</a>}
         {location.pathname === '/Portfolio/recruteur' &&  <a className="scroll" onClick={() => {section4b.current.scrollIntoView()} }>Mes formations</a>}
         <a className="scroll" onClick={() => {section5.current.scrollIntoView()} }>Contact</a>
-        {location.pathname === '/Portfolio/recruteur' && <a href="/Portfolio/Assets/CV_Valentin_LAURENT.pdf" download>Mon CV</a>}
+        {location.pathname === '/Portfolio/recruteur' && <a href="/Portfolio/Assets/CV_Dev_Valentin_LAURENT.pdf" download>Mon CV</a>}
         </div>
         <div className="theme-switcher">
             <div className="theme-wrapper" onClick={() => {let cdt = theme === "dark" ? "light" : "dark"; setTheme(cdt); document.documentElement.setAttribute("data-theme", cdt)}}>
