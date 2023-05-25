@@ -66,7 +66,7 @@ export const Recruteur= (props) =>{
                         classNames={slideTransition}
                         unmountOnExit
                         >
-                            <div className='card-wrapper background-secondary' >
+                            <div className='card-wrapper' >
                                 {isCompOpen && SKILLS.map((item,i) => {
                                     if( i >=6 )
                                     return(
