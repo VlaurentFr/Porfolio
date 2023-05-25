@@ -1,30 +1,48 @@
 [
     {
+        "date": "Août 2022 - Aujourd'hui",
+        "title": "ScrumMaster",
+        "subtitle": "Raccourci Agency",
+        "description": "Gestionnaire d'une équipe de 4 développeurs, dont 2 apprentis développant 1 produit tout en maintenant d'autres plus petits. Évaluation de la faisabilité des demandes du Product Owner. Rédactions de specs / cahiers des charges. Gestion des repo Git et du DevOps des applications"
+    },
+    {
+        "date": "Avril 2022 - Aujourd'hui",
+        "title": "Lead Développeur JS",
+        "subtitle": "Raccourci Agency",
+        "description": "Encadrement des développeurs junior sur les bonnes pratiques. Analyse des anciens produits afin d'optimiser et d'améliorer la simplicité d'évolution des produits ainsi que leur maintenance"
+    },
+    {
+        "date": "Jan 2022 - Aujourd'hui",
+        "title": "Développeur VueJS Front",
+        "subtitle": "Raccourci Agency",
+        "description": "Développement d'application web en VueJS. Maintenance d'application web en VueJS"
+    },
+    {
         "date": "2020 - Aujourd'hui",
         "title": "Développeur Fullstack Web et Mobile",
         "subtitle": "Freelance - SquiDev",
         "description": "Actuellement en Freelance vous trouverez ci-dessous mes projets réalisés durant cette période"
     },
     {
-        "date": "Mai 2021 - Aujourd'hui",
+        "date": "Mai 2021 - Sept 2022",
         "title": "Développement application : Mon Panier Connecté",
         "subtitle": "Freelance - SquiDev pour Université de La Rochelle",
         "description": "Dans le cadre d'un projet de recherche de professeur chercheur pour la chambre de l'agriculture de Nouvelle Aquitaine, j'ai développé une application mobile en React Native de mise en relation entre consommateurs et producteurs locaux. Les porducteurs peuvent gérer très facilement leur point de ventes grâce à l'application utilisant une API en Express ainsi qu'une base de données MangoDB"
     },
     {
-        "date": "sept 2020 - Aujourd'hui",
+        "date": "sept 2020 - Jan 2022",
         "title": "Accompagnement développement application : Visite Musée",
         "subtitle": "Freelance - SquiDev pour IUT de La Rochelle (jpeuxpasjaimusee.org)",
         "description": ""
     },
     {
-        "date": "Sept 2020 - Aujourd'hui",
+        "date": "Sept 2020 - Jan 2022",
         "title": "Développement application : Visite Patrimoine",
         "subtitle": "Freelance - SquiDev pour IUT de La Rochelle (jpeuxpasjaimusee.org)",
         "description": "Visite Patrimoine est une PWA en Ionic-Angular qui propose des parcours et points d'intérêts pour visiter divers territoires participants"
     },
     {
-        "date": "Sept 2020 - Aujourd'hui",
+        "date": "Sept 2020 - Jan 2022",
         "title": "Accompagnement développement application : Kit Pédagogique",
         "subtitle": "Freelance - SquiDev pour IUT de La Rochelle (jpeuxpasjaimusee.org)",
         "description": ""
