@@ -20,7 +20,7 @@ const App = (props) => {
   <main data-theme="light">
     <link href='https://css.gg/css' rel='stylesheet'></link>
     {/* NAVBAR */}
-     {location.pathname !== '/Portfolio/' && <nav className='scrolled'>
+     {location.pathname == '/Portfolio/' && <nav className='scrolled'>
         <svg className="logo" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
         viewBox="0 0 595.3 841.9" style={{enableBackground:(0, 0, 595.3, 841.9)}} >
             <title>Pti'Poulpe</title>
