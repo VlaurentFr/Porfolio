@@ -59,7 +59,7 @@ const App = (props) => {
         </div> */}
     </nav>}
     {/* HOMEPAGE */}
-    {location.pathname === '/Portfolio/' && <section id="section-1" className="container column">
+    {/* {location.pathname === '/Portfolio/' && <section id="section-1" className="container column">
         <span className="background-1"></span>
         <div className="flex-wrapper center">
             <h1>Bienvenue chez SquiDev !</h1>
@@ -68,7 +68,7 @@ const App = (props) => {
             <p className="text-center">SquiDev développe des applications Web et Mobile pour tous depuis 2020, je suis freelance et fier de vous proposer mes services ! Ici, vous trouverez toutes les informations dont vous avez besoin !</p>
         </div>
         <div className="flex-wrapper row evenly">
-            {/* <Link className="buttonPrimary"to="/Portfolio/client" onClick={() => {} }>Je suis client</Link> */}
+            <Link className="buttonPrimary"to="/Portfolio/client" onClick={() => {} }>Je suis client</Link>
             <Link className="buttonSecondary" to="/Portfolio/recruteur" onClick={() => {} }>Je suis recruteur</Link>
         </div>
         <svg className="image-section-middle-right" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -83,7 +83,7 @@ const App = (props) => {
                 c32.4,1.1,40.2,55.1-0.5,59.3C201.1,537.5,200.5,537.5,199.9,537.5z M408.2,548.6c-31.9-0.9-40.1-55.7,0.8-59.3
                 c0.6,0,1.1-0.1,1.7-0.1c33.4,0.9,39.8,54.7-0.5,59.3C409.5,548.6,408.8,548.6,408.2,548.6z"/>
         </svg>
-    </section>}
+    </section>} */}
     {/* ROUTER */}
     <div>
       {/* <Route path='/Portfolio/client'>
