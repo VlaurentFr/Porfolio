@@ -33,6 +33,11 @@
     color: white;
     transition: color 1s;
 }
+
+p, h1, h2, h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 /* ========================
 BUTTON
 ======================== */
@@ -132,7 +137,6 @@ BUTTON
 
 .theme-switcher {
     display: flex;
-    flex : 1;
     flex-direction: row-reverse;
 }
 .theme-switcher .theme-wrapper {
@@ -214,6 +218,7 @@ html {
 body, html, main {
     height: 100%;
     margin: 0px;
+    overflow: auto;
     color: var(--textColorTint);
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -281,7 +286,6 @@ p, a {
     padding: 80px;
     overflow: hidden;
     flex: 1;
-    min-height: 100vh;
     justify-content: center;
 }
 .container-comp {
@@ -298,7 +302,7 @@ p, a {
 }
 .middle-container img {
     margin: 10px;
-    height: 140px;
+    max-height: 140px;
 }
 
 .avatar {
@@ -654,7 +658,17 @@ Card
     width: fit-content;
     padding: 10px 24px;
 }
-
+.social {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+}
+.social > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap : 12px;
+}
 .card-comp {
     position: relative;
     /* min-width: 20vw;
@@ -679,6 +693,19 @@ Card
     -webkit-backdrop-filter: blur( 20px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    overflow: hidden;
+}
+.card-comp:hover {
+    border: solid 2px var(--primaryColor)
+}
+.card-comp > .desc{
+    opacity: 0;
+    transform: translateY(300px);
+    transition: transform 300ms, opacity 400ms ease-in-out;
+}
+.card-comp:hover > .desc{
+    opacity: 1;
+    transform: translateY(0px);
 }
 .desc {
     animation: fadein 2s;
@@ -924,6 +951,64 @@ footer
       flex: 2 0px;
     }
   }
+@media screen and (max-width: 640px) {
+    .row {
+        flex-direction: column;
+    }
+    .container {
+        padding: 80px 8px ;
+    }
+    nav > div {
+        display: none;
+    }
+    .middle-container {
+        height: auto;
+    }
+    .card-comp > .desc  {
+        display: none;
+    }
+    .card-comp > .rate {
+        font-size: small;
+    }
+    .card-comp > p {
+        font-size: small;
+    }
+    .avatar-container {
+        flex-direction: column;
+        margin: 80px 0 10px 0;
+    }
+    .avatar-container > h2 {
+        margin: 20px 0 0 0 ;
+    }
+    .app {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .app > img {
+        aspect-ratio: 1/1;
+        width: fit-content;
+    }
+    .citations-card {
+        max-height: fit-content;
+    }
+    .citations-card > svg {
+        right: 40px;
+        left: auto;
+        transform: rotate(6deg);
+    }
+    .contact-container {
+        min-height: auto;
+    }
+    .note {
+        transform: none;
+    }
+    .note > div > .row {
+        flex-direction: row;
+    }
+}
+
 
 @keyframes fadein {
     from { opacity: 0; }

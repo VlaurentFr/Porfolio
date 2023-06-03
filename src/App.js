@@ -39,13 +39,15 @@ const App = (props) => {
         <a className="scroll" onClick={() => {section2.current.scrollIntoView()} }>Mes projets</a>
         <a className="scroll" onClick={() => {section3.current.scrollIntoView()} }>Mes colaborations</a>
         {location.pathname === '/Portfolio/client' && <a className="scroll" onClick={() => {section4.current.scrollIntoView()} }>Mes services</a>}
-        {location.pathname === '/Portfolio/recruteur' &&  <a className="scroll" onClick={() => {section4.current.scrollIntoView()} }>Mes compétences</a>}
-        {location.pathname === '/Portfolio/recruteur' &&  <a className="scroll" onClick={() => {section4a.current.scrollIntoView()} }>Mes expériences</a>}
-        {location.pathname === '/Portfolio/recruteur' &&  <a className="scroll" onClick={() => {section4b.current.scrollIntoView()} }>Mes formations</a>}
+        {location.pathname === '/Portfolio' &&  <a className="scroll" onClick={() => {section4.current.scrollIntoView()} }>Mes compétences</a>}
+        {location.pathname === '/Portfolio' &&  <a className="scroll" onClick={() => {section4a.current.scrollIntoView()} }>Mes expériences</a>}
+        {location.pathname === '/Portfolio' &&  <a className="scroll" onClick={() => {section4b.current.scrollIntoView()} }>Mes formations</a>}
         <a className="scroll" onClick={() => {section5.current.scrollIntoView()} }>Contact</a>
-        {location.pathname === '/Portfolio/recruteur' && <a href="/Portfolio/Assets/CV_Dev_Valentin_LAURENT.pdf" download>Mon CV</a>}
         </div>
-        <div className="theme-switcher">
+        <div className="social">
+        { location.pathname === '/Portfolio' && <a href="/Portfolio/Assets/CV_Dev_Valentin_LAURENT.pdf" download>Mon CV <i class="gg-software-download"></i></a>}
+        </div>
+        {/* <div className="theme-switcher">
             <div className="theme-wrapper" onClick={() => {let cdt = theme === "dark" ? "light" : "dark"; setTheme(cdt); document.documentElement.setAttribute("data-theme", cdt)}}>
               <div style={{backgroundColor: theme === "dark" ? '#000' : null}}>
                 <i class="gg-moon"></i>
@@ -54,7 +56,7 @@ const App = (props) => {
                 <i class="gg-sun"></i>
               </div>
             </div>
-        </div>
+        </div> */}
     </nav>}
     {/* HOMEPAGE */}
     {location.pathname === '/Portfolio/' && <section id="section-1" className="container column">
@@ -87,7 +89,7 @@ const App = (props) => {
       {/* <Route path='/Portfolio/client'>
         <Client refProp1={section1} refProp2={section2} refProp3={section3} refProp4={section4} refProp5={section5}/>
       </Route> */}
-      <Route path='/Portfolio/recruteur'>
+      <Route path='/Portfolio'>
         <Recruteur refProp1={section1} refProp2={section2} refProp3={section3} refProp4={section4} refProp4a={section4a} refProp4b={section4b} refProp5={section5}/>
       </Route>
     </div>

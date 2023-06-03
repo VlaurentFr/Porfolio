@@ -2,13 +2,13 @@
     {
         "title": "ReactJS",
         "rating": "★★★★☆",
-        "exp": "4 ans",
+        "exp": "3 ans",
         "description": "Ce site est actuellement fait en ReactJS, ma vaste expérience en react-native m'a donné de solides bases en React"
     },
     {
         "title": "React Native",
         "rating": "★★★★☆",
-        "exp": "4 ans",
+        "exp": "3 ans",
         "description": "J'ai créé de multiples prototypes d'applications en React Native et participé au déveveloppement de diverses applications comme le Kit Pédagogique un jeu d'enquêtes pédagogiques"
     },
     {
@@ -20,13 +20,13 @@
     {
         "title": "Angular",
         "rating": "★★★★☆",
-        "exp": "6 ans",
+        "exp": "4 ans",
         "description": "Il fut le premier framework JS que j'ai utilisé pendant 2 années avant de me mettre à React"
     },
     {
         "title": "JavaScript",
         "rating": "★★★★★",
-        "exp": "6 ans",
+        "exp": "5 ans",
         "description": "Un langage que je maîtrise depuis longtemps, j'ai pu faire de nombreuses applications via des frameworks basés dessus comme Angular, Ionic, Vue.JS"
     },
     {
@@ -63,6 +63,12 @@
         "title": "mySQL",
         "rating": "★★★★☆",
         "exp": "6 ans",
-        "description": "Je maîtrise le CRUD depuis un certain temps et l'ais très fréquemment utilisé pour gérer les données de mes applications"
+        "description": "Je maîtrise le CRUD depuis un certain temps et l'ai très fréquemment utilisé pour gérer les données de mes applications"
+    },
+    {
+        "title": "CI / CD",
+        "rating": "★★★☆☆",
+        "exp": "6 ans",
+        "description": "Dans le cadre de mes projets professionnels, j'ai été amené a utilisé GitlabCI et Jenkins a plusieurs reprises"
     }
 ]
